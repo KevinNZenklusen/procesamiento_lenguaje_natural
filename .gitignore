@@ -1,1 +1,10 @@
 **.ipynb_checkpoints
+clase_2/myenv
+clase_2/new_env
+clase_2/Lib
+clase_2/Scripts
+clase_2/share
+clase_2/ejercicios/songs_dataset.zip
+.gitignore
+clase_2/pyvenv.cfg
+clase_2/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
