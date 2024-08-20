@@ -8,3 +8,4 @@ clase_2/ejercicios/songs_dataset.zip
 .gitignore
 clase_2/pyvenv.cfg
 clase_2/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+clase_6/ejercicios/fasttext.pkl
