@@ -1,9 +1,9 @@
+# Procesamiento del Lenguaje natural
+Este repositorio contiene el material de clases (presentaciones, ejercicios y notebooks) para NLP (CEIA - FIUBA) desarrollado por el Dr. Rodrigo Cardenas Szigety y los ejercicios resueltos propuestos como desafíos para la materia, por el alumno Kevin Zenklusen.
+
 ```md
     ![alt text](logoFIUBA.jpg)
     ```
-
-# Procesamiento del Lenguaje natural
-Este repositorio contiene el material de clases (presentaciones, ejercicios y notebooks) para NLP (CEIA - FIUBA) desarrollado por el Dr. Rodrigo Cardenas Szigety y los ejercicios resueltos propuestos como desafíos para la materia, por el alumno Kevin Zenklusen.
 
 ## Contenido
 
