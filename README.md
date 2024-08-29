@@ -1,9 +1,7 @@
 # Procesamiento del Lenguaje natural
 Este repositorio contiene el material de clases (presentaciones, ejercicios y notebooks) para NLP (CEIA - FIUBA) desarrollado por el Dr. Rodrigo Cardenas Szigety y los ejercicios resueltos propuestos como desafíos para la materia, por el alumno Kevin Zenklusen.
 
-```md
-    ![alt text](logoFIUBA.jpg)
-    ```
+![alt text](logoFIUBA.jpg)
 
 ## Contenido
 
@@ -87,9 +85,9 @@ Siendo que, dentro de las palabras similares, encontramos "cuerpo"
 ##### Agrupación de vectores
 Mediante técnicas de reducción de dimensionalidad es posible graficar la distribución de los vectores en un espacio bidimensional
 
-```md
-    ![alt text](clase_2/ejercicios/Agrupvec2D.png)
-    ```
+
+![alt text](clase_2/ejercicios/Agrupvec2D.png)
+
 
 Aquí se ve cómo la palabra amor ocupa un lugar central, acorde a lo que podríamos esperar de un cantante de canciones románticas.
 
@@ -106,9 +104,9 @@ En esta actividad, se utilizó nuevamente la discografía de Luis Miguel como co
 
 Al analizar el corpus, se consideraron valores como la cantidad de palabras contenidas en un verso, para poder definir el tamaño del contexto a utilizar.
 
-```md
-    ![alt text](clase_3/ejercicios/output_word_hist.png)
-    ```
+
+![alt text](clase_3/ejercicios/output_word_hist.png)
+
 
 Para este ejercicio se probaron distintas configuraciones del modelo obteniendo resultados que no son funcionales en ninguno de los casos. No obstante, en algunos modelos la coherencia entre las palabras fue mejor que en otros. 
 Se utilizaron capas GRU para reducir el tiempo de entrenamiento implementando capas intermedias más simples.
@@ -131,9 +129,9 @@ Para generar los embeddings se utilizó la vectorización FastText, lo que permi
 El entrenamiento del modelo fue basado en el esquema encoder-decoder utilizando los datos generados en los puntos anteriores. Utilcé como referencias los ejemplos vistos en clase.
 Se utilizó un learning rate de 0.01 y como optimizador RMS, ya que con Adam no logré buenos resultados.
 
-```md
-    ![alt text](clase_6/ejercicios/output.png)
-    ```
+
+![alt text](clase_6/ejercicios/output.png)
+
 
 Por último se pide experimentar el funcionamiento del modelo.
 El mismo no responde correctamente (como era esperado) pero genera diferentes respuestas en función del conjunto de entrada que tiene una presumible coherencia en algunos casos como relacionar "hobbies" con "student", "are you" con "fine" o "i love to read" con "what is your favorite", siendo las útlimas un par de frases coherentes en una conversación.
@@ -148,23 +146,22 @@ Se realizaron 2 entrenamientos siendo la diferencia entre ambos la implementaci�
 
 Sin fine-tunning:
 
-```md
-    ![alt text](clase_7/jupyter_notebooks/tensorflow/outputtrain1.png)
-    ```
 
-```md
-    ![alt text](clase_7/jupyter_notebooks/tensorflow/outputcorr1.png)
-    ```
+![alt text](clase_7/jupyter_notebooks/tensorflow/outputtrain1.png)
+
+
+
+![alt text](clase_7/jupyter_notebooks/tensorflow/outputcorr1.png)
+
 
 Con fine-tunning:
 
-```md
-    ![alt text](clase_7/jupyter_notebooks/tensorflow/outputtrain2.png)
-    ```
 
-```md
-    ![alt text](clase_7/jupyter_notebooks/tensorflow/outputcorr2.png)
-    ```
+![alt text](clase_7/jupyter_notebooks/tensorflow/outputtrain2.png)
+
+
+![alt text](clase_7/jupyter_notebooks/tensorflow/outputcorr2.png)
+
 
 
 
