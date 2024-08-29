@@ -9,3 +9,6 @@ clase_2/ejercicios/songs_dataset.zip
 clase_2/pyvenv.cfg
 clase_2/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
 clase_6/ejercicios/fasttext.pkl
+clase_7/jupyter_notebooks/tensorflow/apps.csv
+clase_7/jupyter_notebooks/tensorflow/reviews.csv
+clase_7/jupyter_notebooks/tensorflow/bert_weights.h5
